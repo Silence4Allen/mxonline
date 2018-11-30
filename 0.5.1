@@ -1,0 +1,470 @@
+Collecting django-import-export
+  Downloading https://files.pythonhosted.org/packages/5d/36/98fbfaa069f35aa8f2d3637bf91824edbc73b022f5a15294e028baddaca5/django_import_export-1.1.0-py2.py3-none-any.whl (73kB)
+Collecting diff-match-patch (from django-import-export)
+  Downloading https://files.pythonhosted.org/packages/f0/2a/5ba07def0e9107d935aba62cf632afbd0f7c723a98af47ccbcab753d2452/diff-match-patch-20181111.tar.gz (58kB)
+Collecting tablib (from django-import-export)
+  Downloading https://files.pythonhosted.org/packages/e4/9f/cba4e1145ca9ec84d9326f7ce38c6b5f37d9be8bc1af1bd8b19c20374095/tablib-0.12.1.tar.gz (63kB)
+Requirement already satisfied: django>=1.8 in d:\workspace\developertools\python\virtualenv\mxonline\lib\site-packages (from django-import-export) (1.9)
+Collecting odfpy (from tablib->django-import-export)
+  Downloading https://files.pythonhosted.org/packages/01/0f/c9971c99d0d06024a1652f467427ff3f1a1136237e5740da715c5b208a48/odfpy-1.3.6.tar.gz (691kB)
+Collecting openpyxl (from tablib->django-import-export)
+  Downloading https://files.pythonhosted.org/packages/57/12/65fc2f7309ad4a9e1b17239f0b9bffee3464eb8eb529dbe463af47d5b2a2/openpyxl-2.5.10.tar.gz (170kB)
+Collecting unicodecsv (from tablib->django-import-export)
+  Downloading https://files.pythonhosted.org/packages/6f/a4/691ab63b17505a26096608cc309960b5a6bdf39e4ba1a793d5f9b1a53270/unicodecsv-0.14.1.tar.gz
+Collecting xlrd (from tablib->django-import-export)
+  Downloading https://files.pythonhosted.org/packages/07/e6/e95c4eec6221bfd8528bcc4ea252a850bffcc4be88ebc367e23a1a84b0bb/xlrd-1.1.0-py2.py3-none-any.whl (108kB)
+Collecting xlwt (from tablib->django-import-export)
+  Downloading https://files.pythonhosted.org/packages/44/48/def306413b25c3d01753603b1a222a011b8621aed27cd7f89cbc27e6b0f4/xlwt-1.3.0-py2.py3-none-any.whl (99kB)
+Collecting pyyaml (from tablib->django-import-export)
+  Downloading https://files.pythonhosted.org/packages/df/4d/1ef8d60464a171112401e17a3a3e88fdb1d5b44af7606e8652b2f39ee9ce/PyYAML-3.13-cp27-cp27m-win_amd64.whl (209kB)
+Collecting jdcal (from openpyxl->tablib->django-import-export)
+  Downloading https://files.pythonhosted.org/packages/a0/38/dcf83532480f25284f3ef13f8ed63e03c58a65c9d3ba2a6a894ed9497207/jdcal-1.4-py2.py3-none-any.whl
+Collecting et_xmlfile (from openpyxl->tablib->django-import-export)
+  Downloading https://files.pythonhosted.org/packages/22/28/a99c42aea746e18382ad9fb36f64c1c1f04216f41797f2f0fa567da11388/et_xmlfile-1.0.1.tar.gz
+Building wheels for collected packages: diff-match-patch, tablib, odfpy, openpyxl, unicodecsv, et-xmlfile
+  Running setup.py bdist_wheel for diff-match-patch: started
+  Running setup.py bdist_wheel for diff-match-patch: finished with status 'done'
+  Stored in directory: C:\Users\Allen\AppData\Local\pip\Cache\wheels\7f\b9\67\9dd5c4fb30e5ca5011a0ff4fd59582e59bc1de7808d97bb788
+  Running setup.py bdist_wheel for tablib: started
+  Running setup.py bdist_wheel for tablib: finished with status 'done'
+  Stored in directory: C:\Users\Allen\AppData\Local\pip\Cache\wheels\ea\e4\b9\9eb46eaf91476d5dd88a5cf6f76f0884114eafe0b2ef24e2df
+  Running setup.py bdist_wheel for odfpy: started
+  Running setup.py bdist_wheel for odfpy: finished with status 'done'
+  Stored in directory: C:\Users\Allen\AppData\Local\pip\Cache\wheels\da\af\f6\a0b436814a73a88125b8fa82acc73ae96de511bc1faa62b7cc
+  Running setup.py bdist_wheel for openpyxl: started
+  Running setup.py bdist_wheel for openpyxl: finished with status 'error'
+  Complete output from command d:\workspace\developertools\python\virtualenv\mxonline\scripts\python.exe -u -c "import setuptools, tokenize;__file__='c:\\users\\allen\\appdata\\local\\temp\\pip-install-qo29z1\\openpyxl\\setup.py';f=getattr(tokenize, 'open', open)(__file__);code=f.read().replace('\r\n', '\n');f.close();exec(compile(code, __file__, 'exec'))" bdist_wheel -d c:\users\allen\appdata\local\temp\pip-wheel-u5ukdo --python-tag cp27:
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib
+  creating build\lib\openpyxl
+  copying openpyxl\conftest.py -> build\lib\openpyxl
+  copying openpyxl\_constants.py -> build\lib\openpyxl
+  copying openpyxl\__init__.py -> build\lib\openpyxl
+  creating build\lib\openpyxl\cell
+  copying openpyxl\cell\cell.py -> build\lib\openpyxl\cell
+  copying openpyxl\cell\interface.py -> build\lib\openpyxl\cell
+  copying openpyxl\cell\read_only.py -> build\lib\openpyxl\cell
+  copying openpyxl\cell\text.py -> build\lib\openpyxl\cell
+  copying openpyxl\cell\__init__.py -> build\lib\openpyxl\cell
+  creating build\lib\openpyxl\chart
+  copying openpyxl\chart\area_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\axis.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\bar_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\bubble_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\chartspace.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\data_source.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\descriptors.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\error_bar.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\label.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\layout.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\legend.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\line_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\marker.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\picture.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\pie_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\plotarea.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\print_settings.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\radar_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\reader.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\reference.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\scatter_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\series.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\series_factory.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\shapes.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\stock_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\surface_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\text.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\title.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\trendline.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\updown_bars.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\_3d.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\_chart.py -> build\lib\openpyxl\chart
+  copying openpyxl\chart\__init__.py -> build\lib\openpyxl\chart
+  creating build\lib\openpyxl\chartsheet
+  copying openpyxl\chartsheet\chartsheet.py -> build\lib\openpyxl\chartsheet
+  copying openpyxl\chartsheet\custom.py -> build\lib\openpyxl\chartsheet
+  copying openpyxl\chartsheet\properties.py -> build\lib\openpyxl\chartsheet
+  copying openpyxl\chartsheet\protection.py -> build\lib\openpyxl\chartsheet
+  copying openpyxl\chartsheet\publish.py -> build\lib\openpyxl\chartsheet
+  copying openpyxl\chartsheet\relation.py -> build\lib\openpyxl\chartsheet
+  copying openpyxl\chartsheet\views.py -> build\lib\openpyxl\chartsheet
+  copying openpyxl\chartsheet\__init__.py -> build\lib\openpyxl\chartsheet
+  creating build\lib\openpyxl\comments
+  copying openpyxl\comments\author.py -> build\lib\openpyxl\comments
+  copying openpyxl\comments\comments.py -> build\lib\openpyxl\comments
+  copying openpyxl\comments\comment_sheet.py -> build\lib\openpyxl\comments
+  copying openpyxl\comments\shape_writer.py -> build\lib\openpyxl\comments
+  copying openpyxl\comments\__init__.py -> build\lib\openpyxl\comments
+  creating build\lib\openpyxl\compat
+  copying openpyxl\compat\abc.py -> build\lib\openpyxl\compat
+  copying openpyxl\compat\accumulate.py -> build\lib\openpyxl\compat
+  copying openpyxl\compat\numbers.py -> build\lib\openpyxl\compat
+  copying openpyxl\compat\singleton.py -> build\lib\openpyxl\compat
+  copying openpyxl\compat\strings.py -> build\lib\openpyxl\compat
+  copying openpyxl\compat\__init__.py -> build\lib\openpyxl\compat
+  creating build\lib\openpyxl\descriptors
+  copying openpyxl\descriptors\base.py -> build\lib\openpyxl\descriptors
+  copying openpyxl\descriptors\excel.py -> build\lib\openpyxl\descriptors
+  copying openpyxl\descriptors\namespace.py -> build\lib\openpyxl\descriptors
+  copying openpyxl\descriptors\nested.py -> build\lib\openpyxl\descriptors
+  copying openpyxl\descriptors\sequence.py -> build\lib\openpyxl\descriptors
+  copying openpyxl\descriptors\serialisable.py -> build\lib\openpyxl\descriptors
+  copying openpyxl\descriptors\slots.py -> build\lib\openpyxl\descriptors
+  copying openpyxl\descriptors\__init__.py -> build\lib\openpyxl\descriptors
+  creating build\lib\openpyxl\drawing
+  copying openpyxl\drawing\colors.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\connector.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\drawing.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\effect.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\fill.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\geometry.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\graphic.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\image.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\line.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\picture.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\properties.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\relation.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\shape.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\spreadsheet_drawing.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\text.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\xdr.py -> build\lib\openpyxl\drawing
+  copying openpyxl\drawing\__init__.py -> build\lib\openpyxl\drawing
+  creating build\lib\openpyxl\formatting
+  copying openpyxl\formatting\formatting.py -> build\lib\openpyxl\formatting
+  copying openpyxl\formatting\rule.py -> build\lib\openpyxl\formatting
+  copying openpyxl\formatting\__init__.py -> build\lib\openpyxl\formatting
+  creating build\lib\openpyxl\formula
+  copying openpyxl\formula\tokenizer.py -> build\lib\openpyxl\formula
+  copying openpyxl\formula\translate.py -> build\lib\openpyxl\formula
+  copying openpyxl\formula\__init__.py -> build\lib\openpyxl\formula
+  creating build\lib\openpyxl\packaging
+  copying openpyxl\packaging\core.py -> build\lib\openpyxl\packaging
+  copying openpyxl\packaging\extended.py -> build\lib\openpyxl\packaging
+  copying openpyxl\packaging\interface.py -> build\lib\openpyxl\packaging
+  copying openpyxl\packaging\manifest.py -> build\lib\openpyxl\packaging
+  copying openpyxl\packaging\relationship.py -> build\lib\openpyxl\packaging
+  copying openpyxl\packaging\workbook.py -> build\lib\openpyxl\packaging
+  copying openpyxl\packaging\__init__.py -> build\lib\openpyxl\packaging
+  creating build\lib\openpyxl\pivot
+  copying openpyxl\pivot\cache.py -> build\lib\openpyxl\pivot
+  copying openpyxl\pivot\fields.py -> build\lib\openpyxl\pivot
+  copying openpyxl\pivot\record.py -> build\lib\openpyxl\pivot
+  copying openpyxl\pivot\table.py -> build\lib\openpyxl\pivot
+  copying openpyxl\pivot\__init__.py -> build\lib\openpyxl\pivot
+  creating build\lib\openpyxl\reader
+  copying openpyxl\reader\drawings.py -> build\lib\openpyxl\reader
+  copying openpyxl\reader\excel.py -> build\lib\openpyxl\reader
+  copying openpyxl\reader\strings.py -> build\lib\openpyxl\reader
+  copying openpyxl\reader\worksheet.py -> build\lib\openpyxl\reader
+  copying openpyxl\reader\__init__.py -> build\lib\openpyxl\reader
+  creating build\lib\openpyxl\styles
+  copying openpyxl\styles\alignment.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\borders.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\builtins.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\cell_style.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\colors.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\differential.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\fills.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\fonts.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\named_styles.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\numbers.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\protection.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\proxy.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\styleable.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\stylesheet.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\table.py -> build\lib\openpyxl\styles
+  copying openpyxl\styles\__init__.py -> build\lib\openpyxl\styles
+  creating build\lib\openpyxl\utils
+  copying openpyxl\utils\bound_dictionary.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\cell.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\dataframe.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\datetime.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\escape.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\exceptions.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\formulas.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\indexed_list.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\protection.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\units.py -> build\lib\openpyxl\utils
+  copying openpyxl\utils\__init__.py -> build\lib\openpyxl\utils
+  creating build\lib\openpyxl\workbook
+  copying openpyxl\workbook\child.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\defined_name.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\external_reference.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\function_group.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\parser.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\properties.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\protection.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\smart_tags.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\views.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\web.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\workbook.py -> build\lib\openpyxl\workbook
+  copying openpyxl\workbook\__init__.py -> build\lib\openpyxl\workbook
+  creating build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\cell_range.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\copier.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\datavalidation.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\dimensions.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\drawing.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\filters.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\header_footer.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\hyperlink.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\merge.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\page.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\pagebreak.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\properties.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\protection.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\read_only.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\related.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\table.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\views.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\worksheet.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\write_only.py -> build\lib\openpyxl\worksheet
+  copying openpyxl\worksheet\__init__.py -> build\lib\openpyxl\worksheet
+  creating build\lib\openpyxl\writer
+  copying openpyxl\writer\etree_worksheet.py -> build\lib\openpyxl\writer
+  copying openpyxl\writer\excel.py -> build\lib\openpyxl\writer
+  copying openpyxl\writer\strings.py -> build\lib\openpyxl\writer
+  copying openpyxl\writer\theme.py -> build\lib\openpyxl\writer
+  copying openpyxl\writer\workbook.py -> build\lib\openpyxl\writer
+  copying openpyxl\writer\worksheet.py -> build\lib\openpyxl\writer
+  copying openpyxl\writer\__init__.py -> build\lib\openpyxl\writer
+  creating build\lib\openpyxl\xml
+  copying openpyxl\xml\constants.py -> build\lib\openpyxl\xml
+  copying openpyxl\xml\functions.py -> build\lib\openpyxl\xml
+  copying openpyxl\xml\__init__.py -> build\lib\openpyxl\xml
+  creating build\lib\openpyxl\workbook\external_link
+  copying openpyxl\workbook\external_link\external.py -> build\lib\openpyxl\workbook\external_link
+  copying openpyxl\workbook\external_link\__init__.py -> build\lib\openpyxl\workbook\external_link
+  installing to build\bdist.win-amd64\wheel
+  running install
+  running install_lib
+  creating build\bdist.win-amd64
+  creating build\bdist.win-amd64\wheel
+  creating build\bdist.win-amd64\wheel\openpyxl
+  creating build\bdist.win-amd64\wheel\openpyxl\cell
+  copying build\lib\openpyxl\cell\cell.py -> build\bdist.win-amd64\wheel\.\openpyxl\cell
+  copying build\lib\openpyxl\cell\interface.py -> build\bdist.win-amd64\wheel\.\openpyxl\cell
+  copying build\lib\openpyxl\cell\read_only.py -> build\bdist.win-amd64\wheel\.\openpyxl\cell
+  copying build\lib\openpyxl\cell\text.py -> build\bdist.win-amd64\wheel\.\openpyxl\cell
+  copying build\lib\openpyxl\cell\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\cell
+  creating build\bdist.win-amd64\wheel\openpyxl\chart
+  copying build\lib\openpyxl\chart\area_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\axis.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\bar_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\bubble_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\chartspace.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\data_source.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\descriptors.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\error_bar.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\label.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\layout.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\legend.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\line_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\marker.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\picture.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\pie_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\plotarea.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\print_settings.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\radar_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\reader.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\reference.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\scatter_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\series.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\series_factory.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\shapes.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\stock_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\surface_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\text.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\title.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\trendline.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\updown_bars.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\_3d.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\_chart.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  copying build\lib\openpyxl\chart\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\chart
+  creating build\bdist.win-amd64\wheel\openpyxl\chartsheet
+  copying build\lib\openpyxl\chartsheet\chartsheet.py -> build\bdist.win-amd64\wheel\.\openpyxl\chartsheet
+  copying build\lib\openpyxl\chartsheet\custom.py -> build\bdist.win-amd64\wheel\.\openpyxl\chartsheet
+  copying build\lib\openpyxl\chartsheet\properties.py -> build\bdist.win-amd64\wheel\.\openpyxl\chartsheet
+  copying build\lib\openpyxl\chartsheet\protection.py -> build\bdist.win-amd64\wheel\.\openpyxl\chartsheet
+  copying build\lib\openpyxl\chartsheet\publish.py -> build\bdist.win-amd64\wheel\.\openpyxl\chartsheet
+  copying build\lib\openpyxl\chartsheet\relation.py -> build\bdist.win-amd64\wheel\.\openpyxl\chartsheet
+  copying build\lib\openpyxl\chartsheet\views.py -> build\bdist.win-amd64\wheel\.\openpyxl\chartsheet
+  copying build\lib\openpyxl\chartsheet\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\chartsheet
+  creating build\bdist.win-amd64\wheel\openpyxl\comments
+  copying build\lib\openpyxl\comments\author.py -> build\bdist.win-amd64\wheel\.\openpyxl\comments
+  copying build\lib\openpyxl\comments\comments.py -> build\bdist.win-amd64\wheel\.\openpyxl\comments
+  copying build\lib\openpyxl\comments\comment_sheet.py -> build\bdist.win-amd64\wheel\.\openpyxl\comments
+  copying build\lib\openpyxl\comments\shape_writer.py -> build\bdist.win-amd64\wheel\.\openpyxl\comments
+  copying build\lib\openpyxl\comments\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\comments
+  creating build\bdist.win-amd64\wheel\openpyxl\compat
+  copying build\lib\openpyxl\compat\abc.py -> build\bdist.win-amd64\wheel\.\openpyxl\compat
+  copying build\lib\openpyxl\compat\accumulate.py -> build\bdist.win-amd64\wheel\.\openpyxl\compat
+  copying build\lib\openpyxl\compat\numbers.py -> build\bdist.win-amd64\wheel\.\openpyxl\compat
+  copying build\lib\openpyxl\compat\singleton.py -> build\bdist.win-amd64\wheel\.\openpyxl\compat
+  copying build\lib\openpyxl\compat\strings.py -> build\bdist.win-amd64\wheel\.\openpyxl\compat
+  copying build\lib\openpyxl\compat\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\compat
+  copying build\lib\openpyxl\conftest.py -> build\bdist.win-amd64\wheel\.\openpyxl
+  creating build\bdist.win-amd64\wheel\openpyxl\descriptors
+  copying build\lib\openpyxl\descriptors\base.py -> build\bdist.win-amd64\wheel\.\openpyxl\descriptors
+  copying build\lib\openpyxl\descriptors\excel.py -> build\bdist.win-amd64\wheel\.\openpyxl\descriptors
+  copying build\lib\openpyxl\descriptors\namespace.py -> build\bdist.win-amd64\wheel\.\openpyxl\descriptors
+  copying build\lib\openpyxl\descriptors\nested.py -> build\bdist.win-amd64\wheel\.\openpyxl\descriptors
+  copying build\lib\openpyxl\descriptors\sequence.py -> build\bdist.win-amd64\wheel\.\openpyxl\descriptors
+  copying build\lib\openpyxl\descriptors\serialisable.py -> build\bdist.win-amd64\wheel\.\openpyxl\descriptors
+  copying build\lib\openpyxl\descriptors\slots.py -> build\bdist.win-amd64\wheel\.\openpyxl\descriptors
+  copying build\lib\openpyxl\descriptors\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\descriptors
+  creating build\bdist.win-amd64\wheel\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\colors.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\connector.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\drawing.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\effect.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\fill.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\geometry.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\graphic.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\image.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\line.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\picture.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\properties.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\relation.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\shape.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\spreadsheet_drawing.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\text.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\xdr.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  copying build\lib\openpyxl\drawing\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\drawing
+  creating build\bdist.win-amd64\wheel\openpyxl\formatting
+  copying build\lib\openpyxl\formatting\formatting.py -> build\bdist.win-amd64\wheel\.\openpyxl\formatting
+  copying build\lib\openpyxl\formatting\rule.py -> build\bdist.win-amd64\wheel\.\openpyxl\formatting
+  copying build\lib\openpyxl\formatting\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\formatting
+  creating build\bdist.win-amd64\wheel\openpyxl\formula
+  copying build\lib\openpyxl\formula\tokenizer.py -> build\bdist.win-amd64\wheel\.\openpyxl\formula
+  copying build\lib\openpyxl\formula\translate.py -> build\bdist.win-amd64\wheel\.\openpyxl\formula
+  copying build\lib\openpyxl\formula\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\formula
+  creating build\bdist.win-amd64\wheel\openpyxl\packaging
+  copying build\lib\openpyxl\packaging\core.py -> build\bdist.win-amd64\wheel\.\openpyxl\packaging
+  copying build\lib\openpyxl\packaging\extended.py -> build\bdist.win-amd64\wheel\.\openpyxl\packaging
+  copying build\lib\openpyxl\packaging\interface.py -> build\bdist.win-amd64\wheel\.\openpyxl\packaging
+  copying build\lib\openpyxl\packaging\manifest.py -> build\bdist.win-amd64\wheel\.\openpyxl\packaging
+  copying build\lib\openpyxl\packaging\relationship.py -> build\bdist.win-amd64\wheel\.\openpyxl\packaging
+  copying build\lib\openpyxl\packaging\workbook.py -> build\bdist.win-amd64\wheel\.\openpyxl\packaging
+  copying build\lib\openpyxl\packaging\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\packaging
+  creating build\bdist.win-amd64\wheel\openpyxl\pivot
+  copying build\lib\openpyxl\pivot\cache.py -> build\bdist.win-amd64\wheel\.\openpyxl\pivot
+  copying build\lib\openpyxl\pivot\fields.py -> build\bdist.win-amd64\wheel\.\openpyxl\pivot
+  copying build\lib\openpyxl\pivot\record.py -> build\bdist.win-amd64\wheel\.\openpyxl\pivot
+  copying build\lib\openpyxl\pivot\table.py -> build\bdist.win-amd64\wheel\.\openpyxl\pivot
+  copying build\lib\openpyxl\pivot\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\pivot
+  creating build\bdist.win-amd64\wheel\openpyxl\reader
+  copying build\lib\openpyxl\reader\drawings.py -> build\bdist.win-amd64\wheel\.\openpyxl\reader
+  copying build\lib\openpyxl\reader\excel.py -> build\bdist.win-amd64\wheel\.\openpyxl\reader
+  copying build\lib\openpyxl\reader\strings.py -> build\bdist.win-amd64\wheel\.\openpyxl\reader
+  copying build\lib\openpyxl\reader\worksheet.py -> build\bdist.win-amd64\wheel\.\openpyxl\reader
+  copying build\lib\openpyxl\reader\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\reader
+  creating build\bdist.win-amd64\wheel\openpyxl\styles
+  copying build\lib\openpyxl\styles\alignment.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\borders.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\builtins.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\cell_style.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\colors.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\differential.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\fills.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\fonts.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\named_styles.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\numbers.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\protection.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\proxy.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\styleable.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\stylesheet.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\table.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  copying build\lib\openpyxl\styles\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\styles
+  creating build\bdist.win-amd64\wheel\openpyxl\utils
+  copying build\lib\openpyxl\utils\bound_dictionary.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\cell.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\dataframe.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\datetime.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\escape.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\exceptions.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\formulas.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\indexed_list.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\protection.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\units.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  copying build\lib\openpyxl\utils\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\utils
+  creating build\bdist.win-amd64\wheel\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\child.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\defined_name.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  creating build\bdist.win-amd64\wheel\openpyxl\workbook\external_link
+  copying build\lib\openpyxl\workbook\external_link\external.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook\external_link
+  copying build\lib\openpyxl\workbook\external_link\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook\external_link
+  copying build\lib\openpyxl\workbook\external_reference.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\function_group.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\parser.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\properties.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\protection.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\smart_tags.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\views.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\web.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\workbook.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  copying build\lib\openpyxl\workbook\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\workbook
+  creating build\bdist.win-amd64\wheel\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\cell_range.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\copier.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\datavalidation.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\dimensions.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\drawing.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\filters.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\header_footer.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\hyperlink.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\merge.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\page.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\pagebreak.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\properties.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\protection.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\read_only.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\related.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\table.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\views.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\worksheet.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\write_only.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  copying build\lib\openpyxl\worksheet\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\worksheet
+  creating build\bdist.win-amd64\wheel\openpyxl\writer
+  copying build\lib\openpyxl\writer\etree_worksheet.py -> build\bdist.win-amd64\wheel\.\openpyxl\writer
+  copying build\lib\openpyxl\writer\excel.py -> build\bdist.win-amd64\wheel\.\openpyxl\writer
+  copying build\lib\openpyxl\writer\strings.py -> build\bdist.win-amd64\wheel\.\openpyxl\writer
+  copying build\lib\openpyxl\writer\theme.py -> build\bdist.win-amd64\wheel\.\openpyxl\writer
+  copying build\lib\openpyxl\writer\workbook.py -> build\bdist.win-amd64\wheel\.\openpyxl\writer
+  copying build\lib\openpyxl\writer\worksheet.py -> build\bdist.win-amd64\wheel\.\openpyxl\writer
+  copying build\lib\openpyxl\writer\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\writer
+  creating build\bdist.win-amd64\wheel\openpyxl\xml
+  copying build\lib\openpyxl\xml\constants.py -> build\bdist.win-amd64\wheel\.\openpyxl\xml
+  copying build\lib\openpyxl\xml\functions.py -> build\bdist.win-amd64\wheel\.\openpyxl\xml
+  copying build\lib\openpyxl\xml\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl\xml
+  copying build\lib\openpyxl\_constants.py -> build\bdist.win-amd64\wheel\.\openpyxl
+  copying build\lib\openpyxl\__init__.py -> build\bdist.win-amd64\wheel\.\openpyxl
+  running install_egg_info
+  running egg_info
+  writing requirements to openpyxl.egg-info\requires.txt
+  writing openpyxl.egg-info\PKG-INFO
+  writing top-level names to openpyxl.egg-info\top_level.txt
+  writing dependency_links to openpyxl.egg-info\dependency_links.txt
+  reading manifest file 'openpyxl.egg-info\SOURCES.txt'
+  writing manifest file 'openpyxl.egg-info\SOURCES.txt'
+  Copying openpyxl.egg-info to build\bdist.win-amd64\wheel\.\openpyxl-2.5.10-py2.7.egg-info
+  running install_scripts
+  error: [Errno 2] No such file or directory: 'LICENCE.rst'
+  
+  ----------------------------------------
+  Running setup.py clean for openpyxl
+  Running setup.py bdist_wheel for unicodecsv: started
+  Running setup.py bdist_wheel for unicodecsv: finished with status 'done'
+  Stored in directory: C:\Users\Allen\AppData\Local\pip\Cache\wheels\a6\09\e9\e800279c98a0a8c94543f3de6c8a562f60e51363ed26e71283
+  Running setup.py bdist_wheel for et-xmlfile: started
+  Running setup.py bdist_wheel for et-xmlfile: finished with status 'done'
+  Stored in directory: C:\Users\Allen\AppData\Local\pip\Cache\wheels\2a\77\35\0da0965a057698121fc7d8c5a7a9955cdbfb3cc4e2423cad39
+Successfully built diff-match-patch tablib odfpy unicodecsv et-xmlfile
+Failed to build openpyxl
+Installing collected packages: diff-match-patch, odfpy, jdcal, et-xmlfile, openpyxl, unicodecsv, xlrd, xlwt, pyyaml, tablib, django-import-export
+  Running setup.py install for openpyxl: started
+    Running setup.py install for openpyxl: finished with status 'done'
+Successfully installed diff-match-patch-20181111 django-import-export-1.1.0 et-xmlfile-1.0.1 jdcal-1.4 odfpy-1.3.6 openpyxl-2.5.10 pyyaml-3.13 tablib-0.12.1 unicodecsv-0.14.1 xlrd-1.1.0 xlwt-1.3.0
